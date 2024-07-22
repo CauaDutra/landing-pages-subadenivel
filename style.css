@@ -26,7 +26,7 @@ h1 {
 .backgroundimage {
   width: 100%;
   height: auto;
-  opacity: 30%;
+  opacity: 15%;
 }
 .header-subtitulo {
   position: absolute;
@@ -38,24 +38,209 @@ h1 {
   margin-right: 22px;
   margin-left: 22px;
 }
+.botao-cta {
+  align-self: center;
+  background-color: #1a1c4e;
+  color: #d9d9d9;
+  margin-top: -70px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 54px;
+  padding-right: 54px;
+  width: fit-content;
+  border-radius: 28px;
+}
+.button-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.botao-cta2 {
+  align-self: center;
+  background-color: #1a1c4e;
+  color: #d9d9d9;
+  margin-top: 32px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 54px;
+  padding-right: 54px;
+  width: fit-content;
+  border-radius: 28px;
+}
+.secao-flex1 {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(3, 3, 12, 1) 35%,
+    rgba(229, 230, 231, 1) 100%
+  );
+}
 .flex1 {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: white;
   opacity: 100%;
   margin-top: -8px;
-  margin-right: 22px;
-  margin-left: 22px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-bottom: 24px;
   border-radius: 10px;
   width: auto;
-  padding-left: 14px;
-  padding-right: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-top: 50px;
+  padding-bottom: 16px;
 }
 .flex1-header {
   font-weight: 700;
   font-size: 13;
   color: #1a1c4e;
   margin: 0px;
+}
+.flex2 {
+  background-color: #1a1c4e;
+  border-radius: 10px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-top: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #e5e6e7;
+}
+.flex2-header {
+  font-weight: 700;
+}
+.format {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-top: 64px;
+  margin-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.accordion-list li label {
+  border-bottom: #a5a5a5;
+}
+/*.accordion-list label + input[type="radio"] {
+  display: none;
+}*/
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+.accordion-list label + input[type="radio"]:checked + .accordion-content {
+  max-height: 400px;
+}
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+}
+.professor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.professor-header {
+  font-weight: 800;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #2f2c2c;
+}
+.professor-info {
+  display: flex;
+  justify-content: left;
+  margin-right: 40px;
+}
+.foto-dayman {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin: 16px;
+}
+.professor-nome {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.professor-curriculo {
+  margin-top: 8px;
+}
+.professor-texto {
+  margin-right: 24px;
+  margin-left: 24px;
+}
+.garantia {
+  display: flex;
+  background-color: #1a1c4e;
+  margin-right: 12px;
+  margin-left: 12px;
+  padding: 10px;
+  align-items: center;
+}
+.garantia-foto {
+  width: 22px;
+  height: 22px;
+}
+.garantia-texto {
+  color: white;
+  font-size: 13px;
+  margin: 0px;
+}
+.cta-final-header {
+  font-weight: 800;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #2f2c2c;
+}
+.cta-final-texto {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #2f2c2c;
+}
+.ficha-inscricao {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.ficha-elementos {
+  margin-right: 24px;
+  margin-left: 24px;
+}
+.ficha-nome {
+  margin-bottom: 0px;
+}
+.ficha-box {
+  width: 100%;
+  border: 1px solid #a5a5a5;
+}
+.ficha-opc {
+  font-size: 12px;
+}
+.ficha-box-opc {
+  height: 32px;
+  width: 100%;
+  border: 1px solid #a5a5a5;
 }
