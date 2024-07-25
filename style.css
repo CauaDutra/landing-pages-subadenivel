@@ -267,7 +267,7 @@ h1 {
   border-radius: 30px;
   padding: 0 16px;
   font-size: 16px;
-  box-shadow: 0px 1px 1px lightgrey;
+  box-shadow: 0px 1px 1px gray;
   margin: 8px 0px;
 }
 .ficha-opc {
@@ -282,7 +282,7 @@ h1 {
   border-radius: 30px;
   padding: 0 16px;
   font-size: 16px;
-  box-shadow: 0px 1px 1px lightgrey;
+  box-shadow: 0px 1px 1px gray;
   margin: 8px 0px;
 }
 
