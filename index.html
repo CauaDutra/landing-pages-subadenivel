@@ -29,10 +29,11 @@
         </p>
       </div>
     </div>
-    <div class="secao-flex1">    <div class="flex1">
-      <btn class="botao-cta">Quero participar</btn>
-      <p class="flex1-header">SOBRE O CURSO</p>
-      <p class="flex1-text1">
+    <div class="background-about">    
+      <div class="about">
+        <button class="botao-cta">Quero participar</button>
+        <p class="about-header">SOBRE O CURSO</p>
+        <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
         sollicitudin commodo ante in molestie. Nullam at mi tempus, pulvinar
         neque at, laoreet enim. Phasellus orci dui, sollicitudin nec tellus a,
@@ -43,17 +44,17 @@
         Phasellus orci dui, sollicitudin nec tellus a, interdum fringilla neque.
         Vivamus egestas consequat eros id pretium. In fermentum tellus risus, at
         pellentesque velit lacinia vel.
-      </p>
-      <p class="flex1-text2">
+        </p>
+        <p>
         Nosso curso ensina como implementar a técnica de refatoração contínua de
         forma segura e prática, sem grandes mudanças nem riscos. Além disso,
         oferecemos mentoria para aplicação em projetos reais e estudos de caso.
       </p>
     </div>
   </div>
-    <div class="flex2">
-      <p class="flex2-header">Você irá aprender a:</p>
-      <p class="flex2-list">
+    <div class="learn">
+      <p class="learn-header">Você irá aprender a:</p>
+      <p>
         <ul>
           <li>Aumentar a produtividade da equipe.</li>
           <li>Melhorar a performance do produto sem riscos.</li>
@@ -70,7 +71,7 @@
         <ul class="accordion-list">
           <li>
             <label for="first" class="accordion-title">Módulo 1 - Refatoração multiplicada extendida<span>&#x3e</span></label>
-            <input type="radio" name="accordion" ir="first">
+            <input type="radio" name="accordion" id="first">
             <div class="accordion-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                 sollicitudin commodo ante in molestie. Nullam at mi tempus, pulvinar
@@ -80,7 +81,7 @@
           </li>
           <li>
             <label for="second" class="accordion-title">Módulo 1 - Refatoração dividida encurtada <span>&#x3e</span></label>
-            <input type="radio" name="accordion" ir="second">
+            <input type="radio" name="accordion" id="second">
             <div class="accordion-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                 sollicitudin commodo ante in molestie. Nullam at mi tempus, pulvinar
@@ -90,7 +91,7 @@
           </li>
           <li>
             <label for="third" class="accordion-title">Módulo 1 - Refatoração cautelar sarcopênica <span>&#x3e</span></label>
-            <input type="radio" name="accordion" ir="third">
+            <input type="radio" name="accordion" id="third">
             <div class="accordion-content">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
                 sollicitudin commodo ante in molestie. Nullam at mi tempus, pulvinar
@@ -102,7 +103,7 @@
       </div>
     </div>
     <div class="button-section">
-      <btn class="botao-cta2">Quero participar</btn>
+      <button class="botao-cta2">Quero participar</button>
     </div>
     <div class="professor">
       <p class="professor-header">CONHEÇA SEU <br>PROFESSOR</p>
@@ -126,16 +127,13 @@
     </div>
     <div class="ficha-inscricao">
       <div class="ficha-elementos">
-        <p class="ficha-nome">Nome:</p>
-        <input type="text" class="ficha-box" name="Name">
-      <p class="ficha-nome">Email</p>
-        <input type="text" class="ficha-box" name="Name">
-      <p class="ficha-nome">Telefone</p>
-        <input type="text" class="ficha-box" name="Name">
-      <p class="ficha-opc">Opcional:<br> qual a sua maior dificuldade com código legado?</p>
-        <input type="text" class="ficha-box-opc" name="Name">
+        <input type="text" class="ficha-box" name="Name" placeholder="Nome">
+        <input type="text" class="ficha-box" name="Phone" placeholder="Telefone">
+        <input type="text" class="ficha-box" name="Email" placeholder="Email">
+      <p class="ficha-opc">Opcional:</p>
+        <input type="text" class="ficha-box-opc" name="text" placeholder="qual a sua maior dificuldade com código legado?">
       </div>
-      <btn class="botao-cta2">Enviar dados</btn>
+      <button class="botao-cta2">Enviar dados</button>
     </div>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </body>
