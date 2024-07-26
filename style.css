@@ -245,7 +245,7 @@ h1 {
   display: flex;
   flex-direction: column;
   background-color: white;
-  padding-top: 24px;
+  padding: 32px;
 }
 .ficha-elementos {
   display: flex;
