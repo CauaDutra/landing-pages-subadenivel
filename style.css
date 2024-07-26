@@ -6,7 +6,9 @@ body {
 .header {
   display: flex;
   background: url(backgroundimage.png);
-  height: 40vh;
+  height: auto;
+  padding-bottom: 64px;
+  padding-top: 72px;
   align-items: center;
   justify-content: center;
   background-size: cover;
@@ -320,13 +322,8 @@ h1 {
     border-radius: 10px;
   }
   .professor {
-    display: block;
     padding: 0px 32px;
   }
 }
-@media (max-height: 440px) {
-  .header {
-    height: auto;
-    padding-bottom: 32px;
-  }
+@media (max-height: 520px) {
 }
