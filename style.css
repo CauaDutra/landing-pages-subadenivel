@@ -324,3 +324,9 @@ h1 {
     padding: 0px 32px;
   }
 }
+@media (max-height: 440px) {
+  .header {
+    height: auto;
+    padding-bottom: 32px;
+  }
+}
