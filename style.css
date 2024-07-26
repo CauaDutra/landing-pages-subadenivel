@@ -98,7 +98,6 @@ h1 {
   max-width: 700px;
   position: relative;
   display: block;
-  flex-direction: column;
   background-color: white;
   opacity: 100%;
   margin-top: -8px;
@@ -107,9 +106,9 @@ h1 {
   margin-bottom: 24px;
   border-radius: 10px;
   width: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 24px;
 }
 .about-header {
   font-weight: 700;
@@ -124,10 +123,10 @@ h1 {
   margin-right: 24px;
   margin-left: 24px;
   margin-top: 64px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: #e5e6e7;
 }
 .learn-header {
@@ -142,11 +141,11 @@ h1 {
   margin-right: 24px;
   margin-left: 24px;
   margin-top: 64px;
-  margin-bottom: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  margin-bottom: 40px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .format-header {
   font-weight: 700;
@@ -214,8 +213,8 @@ h1 {
   background-color: #1a1c4e;
   margin-right: 12px;
   margin-left: 12px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 64px;
+  margin-bottom: 64px;
   padding: 10px;
   align-items: center;
   border-radius: 10px;
@@ -250,6 +249,7 @@ h1 {
   display: flex;
   flex-direction: column;
   background-color: white;
+  padding-top: 24px;
 }
 .ficha-elementos {
   display: flex;
@@ -324,5 +324,9 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+  }
+  .professor {
+    display: block;
+    padding: 0px 32px;
   }
 }
