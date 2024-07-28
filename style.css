@@ -183,12 +183,14 @@ h1 {
   display: flex;
   justify-content: left;
   margin-right: 40px;
+  align-items: center;
 }
 .foto-dayman {
   width: 65px;
   height: 65px;
   border-radius: 50%;
   margin: 16px;
+  margin-left: 0px;
 }
 .professor-nome {
   font-weight: 700;
@@ -200,8 +202,7 @@ h1 {
 }
 .professor-texto {
   max-width: 700px;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin: 24px 0px;
 }
 .garantia {
   max-width: 700px;
