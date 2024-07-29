@@ -343,3 +343,8 @@ h1 {
 }
 @media (max-height: 520px) {
 }
+@media (max-width: 430px) {
+  .ficha-box-opc {
+    font-size: 12px;
+  }
+}
