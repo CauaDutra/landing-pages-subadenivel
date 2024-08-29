@@ -1,9 +1,10 @@
 body{
     margin: 0px;
     font-family: "Open Sans", sans-serif;
+    background-color: #D6D6D6;
 }
 .header{
-    background: url(img/bg-image--mobile.png);
+    background: url(img/bg-image--dark.png);
     background-size: cover;
     height: 170px;
     padding-left: 24px;
@@ -20,6 +21,10 @@ body{
     text-align: center;
     font-size: 14px;
     color: #E5E6E7;
+}
+.header-subtitle--highlight{
+    color: #7D83FF;
+
 }
 .btn-cta{
     width: fit-content;
@@ -43,9 +48,13 @@ body{
    text-align: center; 
 }
 .section-1-text{
-    font-weight: 500;
+    font-weight: 600;
     color: #252323;
     font-size: 14px;
+}
+.body-highlight{
+    color: #112EBF;
+    font-weight: 700;
 }
 .section-2{
     display: flex;
@@ -55,9 +64,11 @@ body{
 }
 .section-2-list-1{
     display: flex;
+    align-items: center;
 }
 .section-2-img{
     height: 50px;
+    margin-right: 16px;
 }
 .section-3{
     display: flex;
@@ -67,11 +78,21 @@ body{
     padding-left: 24px;
     padding-right: 24px;
 }
+.section-3-header{
+    font-size: 28px;
+    justify-content: center;
+    text-align: center;
+}
 .section-3-list-item{
     display: flex;
+    align-items: center;
+}
+.section-3-list-item-text{
+    font-weight: 500;
 }
 .checkmark{
     height: 20px;
+    margin-right: 12px;
 }
 .section-4{
     padding: 24px;
