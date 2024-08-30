@@ -28,12 +28,13 @@ body{
 
 }
 .btn-cta{
-    width: fit-content;
+    width: 150px;
     height: 35px;
-    border: 175px;
+    border: none;
     color: #E5E6E7;
     background-color: #234B98;
     border-radius: 20px;
+    margin: 24px;
 }
 .section--gray{
     display: flex;
@@ -78,11 +79,11 @@ body{
     padding-left: 24px;
     padding-right: 24px;
 }
-.section-3-list-item{
+.section-learn-list-item{
     display: flex;
     align-items: center;
 }
-.section-3-list-item-text{
+.section-learn-list-item-text{
     font-weight: 500;
 }
 .checkmark{
@@ -90,6 +91,10 @@ body{
     margin-right: 12px;
 }
 .section-modules{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 24px;
     margin-bottom: 60px;
 }
@@ -118,6 +123,18 @@ body{
 .section-modules--number{
     font-size: 12px;
     color: #7D83FF ;
+}
+.botao-mais{
+    width: 100px;
+    height: 30px;
+    background-color: #D9D9D9;
+    border: 1px solid #11254B;
+    color: #11254B;
+    border-radius: 5px;
+    margin: 24px;
+}
+.down-arrow{
+    margin-left: 5px;
 }
 .foto-dayman{
     height: 150px;
