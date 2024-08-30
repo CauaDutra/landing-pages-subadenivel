@@ -76,8 +76,7 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: #C0C0C0;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 24px;
 }
 .section-learn-list-item{
     display: flex;
