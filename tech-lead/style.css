@@ -57,17 +57,17 @@ body{
     color: #112EBF;
     font-weight: 700;
 }
-.section-2{
+.section-benefits{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 24px;
 }
-.section-2-list-1{
+.section-benefits--list{
     display: flex;
     align-items: center;
 }
-.section-2-img{
+.section-benefits--img{
     height: 50px;
     margin-right: 16px;
 }
@@ -166,4 +166,10 @@ body{
 }
 .section-faq-body-text{
     margin-top: 0px;
+}
+
+@media (min-width:768){
+    .section-benefits{
+        flex-direction: row;
+    }
 }
