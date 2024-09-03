@@ -7,6 +7,9 @@ body{
 .align-center{
     align-items: center;
 }
+.max-width{
+    max-width: 700px;
+}
 .header{
     background: url(img/bg-image--dark.png);
     background-size: cover;
@@ -164,4 +167,5 @@ body{
     .section-benefits{
         flex-direction: row;
     }
+    .
 }
