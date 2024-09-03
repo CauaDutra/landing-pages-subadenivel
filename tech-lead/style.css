@@ -4,6 +4,9 @@ body{
     background-color: #D6D6D6;
     color: #252323;
 }
+.align-center{
+    align-items: center;
+}
 .header{
     background: url(img/bg-image--dark.png);
     background-size: cover;
@@ -40,13 +43,14 @@ body{
     background-color: #000dff;
     cursor: pointer;
 }
-.section--gray{
+.section-body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: #C0C0C0;
     padding: 24px;
+}
+.section-dark{
+    background-color: #C0C0C0;
 }
 .body--title{
    font-size: 28px;
@@ -61,12 +65,6 @@ body{
     color: #112EBF;
     font-weight: 700;
 }
-.section-benefits{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 24px;
-}
 .section-benefits--list{
     display: flex;
     align-items: center;
@@ -74,13 +72,6 @@ body{
 .section-benefits--img{
     height: 50px;
     margin-right: 16px;
-}
-.section--learn{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #C0C0C0;
-    padding: 24px;
 }
 .section-learn-list-item{
     display: flex;
@@ -94,12 +85,8 @@ body{
     margin-right: 12px;
 }
 .section-modules{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 24px;
     margin-bottom: 60px;
+    align-items: center;
 }
 .hidden{
     display: none;
@@ -158,13 +145,6 @@ body{
 .section-teacher--title{
     font-size: 22px;
 
-}
-.section-faq{
-    display: flex;
-    flex-direction: column;
-    padding: 24px;
-    align-items: center;
-    justify-content: center;
 }
 .section-faq-title{
     font-size: 32px;
