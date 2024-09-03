@@ -163,9 +163,11 @@ body{
     margin-top: 0px;
 }
 
-@media (min-width:768){
+@media (min-width: 768px){
     .section-benefits{
         flex-direction: row;
     }
-    .
+    .section-body{
+        align-items: center;
+    }
 }
