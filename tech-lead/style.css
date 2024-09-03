@@ -36,6 +36,10 @@ body{
     border-radius: 20px;
     margin: 24px;
 }
+.btn-cta:hover{
+    background-color: #000dff;
+    cursor: pointer;
+}
 .section--gray{
     display: flex;
     flex-direction: column;
@@ -135,6 +139,11 @@ body{
     border-radius: 5px;
     margin: 24px;
     font-weight: 600;
+}
+.botao-mais:hover{
+    color: #000dff;
+    border: 1px solid #000dff;
+    cursor: pointer;
 }
 .down-arrow{
     margin-left: 5px;
