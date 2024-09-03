@@ -163,7 +163,7 @@ body{
     margin-top: 0px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 425px){
     .section-benefits{
         flex-direction: row;
     }
