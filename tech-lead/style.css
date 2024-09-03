@@ -10,7 +10,7 @@ body{
 .max-width{
     max-width: 700px;
 }
-.header{
+header{
     background: url(img/bg-image--dark.png);
     background-size: cover;
     height: 170px;
@@ -18,29 +18,30 @@ body{
     padding-right: 24px;
     padding-top: 24px;
 }
-.header-title{
+.header--title{
     text-align: center;
     color: #E5E6E7;
     font-weight: 600;
     margin-top: 0px;
 }
-.header-subtitle{
+.header--subtitle{
     text-align: center;
     font-size: 14px;
     color: #E5E6E7;
 }
-.header-subtitle--highlight{
+.header--subtitle--highlight{
     color: #7D83FF;
 
 }
 .btn-cta{
-    width: 150px;
-    height: 35px;
+    width: 200px;
+    height: 60px;
     border: none;
     color: #E5E6E7;
     background-color: #234B98;
-    border-radius: 20px;
+    border-radius: 60px;
     margin: 24px;
+    font-size: 16px;
 }
 .btn-cta:hover{
     background-color: #000dff;
@@ -52,7 +53,7 @@ body{
     justify-content: center;
     padding: 24px;
 }
-.section-dark{
+.section--dark{
     background-color: #C0C0C0;
 }
 .body--title{
@@ -63,6 +64,7 @@ body{
     font-weight: 600;
     color: #252323;
     font-size: 14px;
+    margin-top: 28px;
 }
 .body-highlight{
     color: #112EBF;
@@ -98,31 +100,31 @@ body{
     font-size: 24px;
     font-weight: 600;
 }
-.section-modules-body-first-box{
+.course-module{
     background-color: #11254B;
     color: #FFFFFF;
     border-radius: 15px;
     padding: 16px;
 }
-.section-modules-body-box--item{
+.course-module--lesson{
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #3064C9;
 
 }
-.section-modules-body-box--item-last{
+.course-module--lesson--last{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.section-modules--number{
+.course-module--number{
     font-size: 12px;
     color: #7D83FF ;
 }
 .botao-mais{
-    width: 100px;
-    height: 30px;
+    width: 140px;
+    height: 40px;
     background-color: #D9D9D9;
     border: 1px solid #11254B;
     color: #11254B;
