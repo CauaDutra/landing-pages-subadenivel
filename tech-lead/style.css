@@ -59,6 +59,7 @@ header{
 .body--title{
    font-size: 28px;
    text-align: center; 
+   font-weight: 600;
 }
 .section-1-text{
     font-weight: 600;
@@ -171,5 +172,23 @@ header{
     }
     .section-body{
         align-items: center;
+    }
+}
+@media (min-width: 1020px){
+    header{
+        display: flex;
+        flex-direction: column;
+        background: url(img/bg-image--desktop.png);
+        background-position: center;
+        align-items: baseline;
+    }
+    .header--title{
+        font-size: 40px;
+        text-align: left;
+        margin: 0;
+    }
+    .header--subtitle{
+        max-width: 400px;
+        text-align: left;
     }
 }
