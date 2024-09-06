@@ -10,6 +10,9 @@ body{
 .max-width{
     max-width: 700px;
 }
+.row{
+    display: flex;
+}
 header{
     background: url(img/bg-image--dark.png);
     background-size: cover;
@@ -33,6 +36,17 @@ header{
     color: #7D83FF;
 
 }
+.section-hero--text{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.globeman{
+    display: none;
+}
+.btn-cta--header{
+    display: none;
+}
 .btn-cta{
     width: 200px;
     height: 60px;
@@ -51,6 +65,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 24px;
 }
 .section--dark{
@@ -61,7 +76,7 @@ header{
    text-align: center; 
    font-weight: 600;
 }
-.section-1-text{
+.section-hero--subtitle{
     font-weight: 600;
     color: #252323;
     font-size: 14px;
@@ -191,5 +206,31 @@ header{
     .header--subtitle{
         max-width: 400px;
         text-align: left;
+
+    }
+    .body--title{
+        font-size: 36px;
+        max-width: 680px;
+    }
+    .section--hero{
+        justify-content: space-between;
+    }
+    .section--hero--text{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero--title{
+        text-align: left;
+    }
+    .btn-cta--hero{
+        display: none;
+    }
+    .btn-cta--header{
+        display: block;
+        margin-top: -50px;
+    }
+    .globeman{
+        display: block;
+        height: 360px;
     }
 }
