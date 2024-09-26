@@ -7,6 +7,9 @@
   <title>Tornando-se Tech-Lead</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://blob.contato.io/machine-files/all-css/form-ll.css">
+  <link rel="stylesheet" href="https://paginas.rocks/content/capture/forms/async-form-capture.css">
 </head>
 
 <body>
@@ -15,12 +18,12 @@
     <!-- <p class="header--subtitle">Aprenda a desenvolver-se profissionalmente com um <span class="header--subtitle--highlight">especialista</span> no mercado de <span class="header--subtitle--highlight">tecnologia</span></p> -->
   </header>
   <div class="section-body section--dark align-center section--hero">
-    <button class="btn-cta btn-cta--header">Garantir minha vaga</button>
+    <button class="btn-cta btn-cta--header" onclick="showModal()">Garantir minha vaga</button>
     <div class="row">
       <div class="section-hero--text">
         <p class="body--title hero--title">Um curso completo para subir de nível na carreira de dev e se tornar
           tech-lead</p>
-        <button class="btn-cta btn-cta--hero">Garantir minha vaga</button>
+        <button class="btn-cta btn-cta--hero" onclick="showModal()">Garantir minha vaga</button>
         <p class="section-hero--subtitle max-width">
           Meu nome é <span class="body-highlight">Dayman Novaes</span>, sou empreendedor e desenvolvedor de software há
           quase 15 anos, com experiência em liderança técnica em multi-nacionais dos Estados Unidos. Neste curso, vou te
@@ -316,8 +319,50 @@
         tenha um bom conhecimento técnico.
       </p>
     </div>
-    <button class="btn-cta">Garantir minha vaga</button>
+    <button class="btn-cta" onclick="showModal()">Garantir minha vaga</button>
   </div>
+
+
+  <div class="form-modal-wrapper">
+    <div class="form-modal-content">
+      <!-- Formulário -->
+      <form action="https://paginas.rocks/capture" method="post" >
+        <input id="id" name="id" type="hidden" value="739828" />
+        <input id="mid" name="mid" type="hidden" value="739828" />
+        <input id="pid" name="pid" type="hidden" value="21882421" />
+        <input id="list_id" name="list_id" type="hidden" value="739828" />
+        <input id="provider" name="provider" type="hidden" value="leadlovers" />
+        <label for="name">Nome:</label>
+        <input class="form-control form-ll" id="name" name="name" placeholder="Seu nome completo" type="text"  />
+        <label for="email">E-mail:</label>
+        <input class="form-control form-ll" id="email" name="email" placeholder="Seu melhor e-mail" type="text" />
+        <label for="phone">Telefone:</label>
+        <input data-maskWithDDI="true" type="hidden" />
+        <input class="form-control form-ll" id="phone" name="phone" placeholder="Seu telefone (DDD + Número)" type="text" />
+        <button class="btn btn-danger" style="padding: 10px 40px; margin:15px 0 5px;  " type="submit">Enviar</button>
+        <input type="hidden" id="source" name="source" value="" />
+        <img src="https://llimages.com/redirect/redirect.aspx?A=V&p=21882421&m=739828" style="display: none;" />
+      </form>
+    </div>
+  </div>
+
+  <div class="form-modal-background"></div>
+
+  <script>
+    function showModal() {
+      document.querySelector('.form-modal-wrapper').classList.add('active');
+      document.querySelector('.form-modal-background').classList.add('active');
+    }
+
+    function hideModal() {
+      document.querySelector('.form-modal-wrapper').classList.remove('active');
+      document.querySelector('.form-modal-background').classList.remove('active');
+    }
+
+    document.querySelector('.form-modal-background').addEventListener('click', hideModal);
+  </script>
+
+  <script src="https://paginas.rocks/scripts/capture/form/async-form-capture.js" async defer></script>
   <script src="index.js"></script>
 </body>
 
