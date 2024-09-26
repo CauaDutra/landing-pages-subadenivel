@@ -17,29 +17,7 @@ body{
 .row{
     display: flex;
 }
-header{
-    background: url(img/bg-image--dark.png);
-    background-size: cover;
-    height: 170px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 24px;
-}
-.header--title{
-    text-align: center;
-    color: #E5E6E7;
-    font-weight: 600;
-    margin-top: 0px;
-}
-.header--subtitle{
-    text-align: center;
-    font-size: 14px;
-    color: #E5E6E7;
-}
-.header--subtitle--highlight{
-    color: #7D83FF;
 
-}
 .section-hero--text{
     display: flex;
     flex-direction: column;
@@ -48,24 +26,22 @@ header{
 .globeman{
     display: none;
 }
-.btn-cta--header{
-    display: none;
-}
 .btn-cta{
     width: 200px;
     height: 60px;
     border: none;
     color: #E5E6E7;
-    background-color: #234B98;
+    background-color: #349D25;
     border-radius: 60px;
     margin: 24px;
     font-size: 16px;
 }
 .btn-cta:hover{
-    background-color: #000dff;
+    background-color: #3ac427;
     cursor: pointer;
 }
 .section-body{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -87,6 +63,7 @@ header{
     margin-top: 28px;
 }
 .body-highlight{
+
     color: #112EBF;
     font-weight: 700;
 }
@@ -265,7 +242,6 @@ header{
 .form-modal-content {
   background: #12254b;
   width: calc(100% - 96px);
-  max-width: 768px;
   border-radius: 16px;
   padding: 32px;
   box-shadow: -1px 3px 15px -3px #000000bf;
