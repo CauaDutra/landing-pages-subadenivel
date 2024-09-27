@@ -98,6 +98,11 @@ header{
     height: 50px;
     margin-right: 16px;
 }
+.section-leran-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .section-learn-list-item{
     display: flex;
     align-items: center;
